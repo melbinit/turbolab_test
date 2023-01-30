@@ -12,7 +12,7 @@ Run redis server
 Run celery :\
   celery -A tlabs_task worker --pool=solo -l info
   
-python manage.py shell\
+python manage.py shell
 >> from core.task import generate_file\
 >> generate_file.delay("abcd.csv", 40)
 
