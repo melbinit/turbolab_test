@@ -1,6 +1,6 @@
-virtualenv venv
-venv/Scripts/activate (windows)
-pip install -r requirements.txt
+virtualenv venv\
+venv/Scripts/activate (windows)\
+pip install -r requirements.txt\
 
 python manage.py makemigrations
 python manage.py migrate
