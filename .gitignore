@@ -4,7 +4,6 @@
 data/
 celery_logger.py
 tlabs_task/celery_logger.py
-core/celery_logger.py
 ### Django ###
 *.log
 *.pot
