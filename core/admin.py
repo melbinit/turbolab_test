@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import CeleryLog
+from .models import *
 # Register your models here.
 
 admin.site.register(CeleryLog)
+admin.site.register(CeleryLog2)
