@@ -1,4 +1,4 @@
-**Logging using Celery signals and Task events**
+**Logging using Celery signals and Task events**\
 *They are logged into 2 seperate models. Celerylog and CeleryLog2 respectively.*
 
 
@@ -15,12 +15,12 @@ python manage.py runserver
 
 Run redis server
 
-Run celery :\
+Run celery :
 ```python
   celery -A tlabs_task worker --pool=solo -l info --task-events
 ```
 
-Run core/celery_logger.py:\
+Run core/celery_logger.py:
 ```python
   python -m core.celery_logger
 ```
