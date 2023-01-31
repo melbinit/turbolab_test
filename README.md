@@ -30,6 +30,11 @@ python manage.py shell
 from core.task import generate_file
 generate_file.delay("test_filename.csv", 40)
 ```
+Or, for csv using pandas
+```python
+from core.task import generate_file2
+generate_file2.delay("test_filename.csv", 50)
+```
 
 http://127.0.0.1:8000/admin
 
